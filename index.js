@@ -28,8 +28,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Define a route to render the EJS template
 app.get('/', (req, res) => {
     // You can replace these placeholder names with the actual data you want to send
-    
-    
 
     const placeholderData = {
         field1: 'Prajwal',
